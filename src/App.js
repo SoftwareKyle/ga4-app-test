@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import { Routes, Route, Link, Navigate, useNavigate} from 'react-router-dom';
+import ReactGA from 'react-ga';
+import Example from './Components/example';
 
 function App() {
   return (
@@ -13,13 +16,16 @@ function App() {
         <p>Testing Google Analytics 4</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="kyedilbeck.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          GA4 WebDevelopment
         </a>
       </header>
+      <body>
+        <Example/>
+      </body>
     </div>
   );
 }
