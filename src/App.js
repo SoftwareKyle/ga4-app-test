@@ -17,7 +17,11 @@ function App() {
         <p>Testing Google Analytics 4</p>
         
           GA4 WebDevelopment with ReactJS
-        
+          <a href="kyledilbeck.com" target="_blank">
+            <button>
+              Page Change
+            </button>
+          </a>
       </header>
       
     </div>
