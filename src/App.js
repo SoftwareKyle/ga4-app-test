@@ -4,6 +4,8 @@ import './App.css';
 //import ReactGA from 'react-ga';
 //import Example from './Components/example';
 import { Mainbutton } from './Components/Mainbutton';
+
+//Development platform and sandbox for google analytics 
 function App() {
   return (
     <div className="App">
@@ -19,15 +21,16 @@ function App() {
           GA4 WebDevelopment with ReactJS
           <a href="pageone" target="_blank">
             <button>
-              Page Change _new window
+              Page Change _newWindow
             </button>
           </a>
-          <a>
-            <button href="pageone" target="_self">
+          <a href="pagetwo" target="_self">
+            <button>
               Page Change _self
             </button>
           </a>
-          <Mainbutton url="test" />
+          <Mainbutton url="test" name="Button Comp" />
+          <Mainbutton url="pageTwo" name="pageTwo t"/>
           
       </header>
       
