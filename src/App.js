@@ -20,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          GA4 WebDevelopment
+          GA4 WebDevelopment with ReactJS
         </a>
       </header>
       <body>
