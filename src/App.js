@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 //import { Routes, Route, Link, Navigate, useNavigate} from 'react-router-dom';
 //import ReactGA from 'react-ga';
-//import Example from './Components/example';
 import { Mainbutton } from './Components/Mainbutton';
 
 //Development platform and sandbox for google analytics 

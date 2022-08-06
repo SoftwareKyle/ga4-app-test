@@ -1,22 +1,25 @@
 import React from 'react'
-import { Pagetwo } from './pages/Pagetwo';
+//import { Pagetwo } from './pages/Pagetwo';
 
 export const Mainbutton = (props) => {
-  //let url = props.url; 
+  let purl = props.url; 
+  let pname = props.name;
+  //let ptarget = props.target; 
   //const [url, seturl] = setState(props.url); 
-    const onclicker = (url) => {
+    const onclicker = () => {
         //go to page
-        alert(url, "button two clicked, testing main");
+        alert(purl, "button two clicked, testing main");
         //console.log("!!! testing clicker")
         //window.open(url, '_blank', 'noopener,roreferrer')
-        if(url === "pageTwo"){
-          return <Pagetwo/>
+        if(purl === "pageTwo"){
+          //return <Pagetwo/>
+          alert("Testing page two url function");
         }
     };
   return (
-    <a href={props.url} target="_self">
-      <button onClick={() => onclicker(props.url)}>
-        {props.name}
+    <a href={purl} target="_self">
+      <button onClick={() => onclicker(purl)}>
+        {pname}
       </button>
     </a>
    
